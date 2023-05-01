@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('./config-css/reset.css');
+@import url('./config-css/variables.css');
+@import url('./config-css/btn.css');
+@import url('./config-css/animation.css');
+
+html {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--primary-color);
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}

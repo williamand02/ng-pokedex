@@ -1,0 +1,19 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn__primary {
+  color: var(--write);
+  background: var(--primary-color);
+}
+
+.btn__secondary {
+  color: var(--write);
+  background: var(--secondary-color);
+}
